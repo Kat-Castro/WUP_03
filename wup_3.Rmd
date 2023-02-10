@@ -59,4 +59,4 @@ The provided plot infers a difference between the alcohol consumed within the fr
 
 ## Conclusions
   
-
+In conclusion, this data shows how the people located in the back consume more alcohol compared to people seated in the middle and the front. The first data graph gives us data on the different medians. People sitting in the back have a higher median of consuming drinks compared to other seating areas. The second data piece shows us the difference between the different types, which turns out to be a very small digit signifying that there is a small difference between the three types. The third data shows us a graph on how the previous data doesn't cross or intertwine with each other.
