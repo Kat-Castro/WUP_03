@@ -34,9 +34,15 @@ basicCN + geom_boxplot()
 ```{r}
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
+  
+Looking at the Fancy notch boxplot, we see 3 different types of people's seating. This includes the back, front, and middle. After giving a close analysis at this information, we can see that people seated in the back have a differing medium compared to the people sitting in the front. People sitting in the back seem to obtain more drinks compared to most people sitting in the front.
 
 ## Numerical Summarys 
-
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+  
+Observing this data shows data on the medium of how many people have drinks when seated at the back. The median for the back is 4 while the front and middle range between 0 to 1.
 ## Inferential Tests
 
 ## Conclusions
