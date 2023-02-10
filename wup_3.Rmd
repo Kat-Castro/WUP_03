@@ -51,6 +51,12 @@ summary.aov(model1)
   
 Observing the inferential test shows us that a small number under the P-value is within 0.000116. This data gives us the understanding where there was no difference of alcohol consumption between the front and the middle
 
-## Conclusions
+```{r}
+plot(TukeyHSD(model1))
+```
+  
+The provided plot infers a difference between the alcohol consumed within the front-back and the middle-front. The data also hows how neither type crosses with each other of the back, middle, and front.
 
+## Conclusions
+  
 
