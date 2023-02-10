@@ -44,6 +44,12 @@ favstats(alcohol~Seat,data=davisdata)
   
 Observing this data shows data on the medium of how many people have drinks when seated at the back. The median for the back is 4 while the front and middle range between 0 to 1.
 ## Inferential Tests
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+  
+Observing the inferential test shows us that a small number under the P-value is within 0.000116. This data gives us the understanding where there was no difference of alcohol consumption between the front and the middle
 
 ## Conclusions
 
